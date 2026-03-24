@@ -10,182 +10,195 @@
 </head>
 
 <body>
-    <div class="centered">
-        <img src="profile.jpg" alt="A picture of me" />
+    <div class="section">
+        <h1>Peter Schlenker</h1>
+
+        <div class="centered">
+            <img src="images/turtles_cropped.jpg" alt="Crochet turtles in nature" style="width: 90%" />
+        </div>
+
+        <p>
+            Hi! My name is Peter Schlenker, and I am a master's student at Carnegie Mellon University studying computer science. I am interested in computer graphics, writing detailed and precise code, and programming language theory. I graduated from Texas A&M University with a degree in computer science and minors in math and game design. Here are some of the projects I've worked on!
+        </p>
     </div>
 
-    <p>
-        Hi! My name is Peter Schlenker, and I am a master's student at Carnegie Mellon University studying computer science. I am interested in computer graphics, writing detailed and precise code, and programming language theory. I graduated from Texas A&M University with a degree in computer science and minors in math and game design. Here are some of the projects I've worked on!
-    </p>
+    <div class="section">
+        <h1>Games</h1>
 
-    <h1>Games</h1>
+        <p>
+            While I was at Texas A&M I was part of two clubs where we make video games! All of the games I've worked on are <a href="https://peterschlenker.itch.io/">on itch.io</a>, but these are three of my favorites.
+        </p>
 
-    <p>
-        While I was at Texas A&M I was part of two clubs where we make video games! All of the games I've worked on are <a href="https://peterschlenker.itch.io/">on itch.io</a>, but these are three of my favorites.
-    </p>
+        <h2>Plugged In</h2>
 
-    <h2>Plugged In</h2>
+        <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/2563045"><a
+                href="https://pengso0o.itch.io/plugged-in">Plugged In by casey, peterschlenker, Dallasocoggins, sipipark</a></iframe>
 
-    <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/2563045"><a
-            href="https://pengso0o.itch.io/plugged-in">Plugged In by casey, peterschlenker, Dallasocoggins,
-            sipipark</a></iframe>
+        <h2>Edge of the Universe</h2>
 
-    <h2>Edge of the Universe</h2>
+        <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/1962250"><a
+                href="https://dallasocoggins.itch.io/edge-of-the-universe">Edge of the Universe by Dallasocoggins, casey, SolarisDreams, peterschlenker</a></iframe>
 
-    <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/1962250"><a
-            href="https://dallasocoggins.itch.io/edge-of-the-universe">Edge of the Universe by Dallasocoggins, casey,
-            SolarisDreams, peterschlenker</a></iframe>
+        <h2>Break Free</h2>
 
-    <h2>Break Free</h2>
+        <iframe frameborder="0" src="https://itch.io/embed/1945051" width="552" height="167"><a
+                href="https://pengso0o.itch.io/break-free">Break Free by casey, Dallasocoggins, Cylfa, peterschlenker</a></iframe>
+    </div>
 
-    <iframe frameborder="0" src="https://itch.io/embed/1945051" width="552" height="167"><a
-            href="https://pengso0o.itch.io/break-free">Break Free by casey, Dallasocoggins, Cylfa,
-            peterschlenker</a></iframe>
+    <div class="section">
+        <h1>Systems Projects</h1>
 
-    <h1>Systems Projects</h1>
+        <h2>C0 Compiler</h2>
 
-    <h2>C0 Compiler</h2>
+        <p>
+            I am currently taking a course on compiler design at CMU (<a href="https://www.cs.cmu.edu/~411/">15-611</a>), and throughout this course we work with a partner to make compilers for subsets of C0 that output x86-64 assembly. My partner and I are writing our compiler in Rust, and apart from the starter code the course staff gave us and the parsing package <a href="https://github.com/lalrpop/lalrpop">LARLPOP</a>, we've implemented everything ourselves, from creating an abstract syntax tree, to elaborating it into a simplified version, to typechecking, to generating abstract assembly, to allocating registers and writing x86-64 assembly code. Our compiler has grown more complex as the languages we need to compile become more expressive, from straight line code in the langauge L1, to loops and branches in the language L2, to function calls in the language L3. Currently we are adding support for memory access, including pointers, arrays, and structs, in the language L4.
+        </p>
 
-    <p>
-        I am currently taking a course on compiler design at CMU (<a href="https://www.cs.cmu.edu/~411/">15-611</a>), and throughout this course we work with a partner to make compilers for subsets of C0 that output x86-64 assembly. My partner and I are writing our compiler in Rust, and apart from the starter code the course staff gave us and the parsing package <a href="https://github.com/lalrpop/lalrpop">LARLPOP</a>, we've implemented everything ourselves, from creating an abstract syntax tree, to elaborating it into a simplified version, to typechecking, to generating abstract assembly, to allocating registers and writing x86-64 assembly code. Our compiler has grown more complex as the languages we need to compile become more expressive, from straight line code in the langauge L1, to loops and branches in the language L2, to function calls in the language L3. Currently we are adding support for memory access, including pointers, arrays, and structs, in the language L4.
-    </p>
+        <p>
+            Unfortunately, since this is a class project I cannot post our compiler publicly. Please look at the <a href="https://www.cs.cmu.edu/~411/">course website</a> for more information!
+        </p>
 
-    <p>
-        Unfortunately, since this is a class project I cannot post our compiler publicly. Please look at the <a href="https://www.cs.cmu.edu/~411/">course website</a> for more information!
-    </p>
+        <h2>Operating Systems</h2>
 
-    <h2>Operating Systems</h2>
+        <p>
+            During my last semester at Texas A&M I took a course on operating systems (<a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/">CSCE 410</a>). In it, we learned about what exactly an operating does and why it is needed, all the different components needed to implement an operating system, and how different operating systems are designed.
+        </p>
 
-    <p>
-        During my last semester at Texas A&M I took a course on operating systems (<a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/">CSCE 410</a>). In it, we learned about what exactly an operating does and why it is needed, all the different components needed to implement an operating system, and how different operating systems are designed.
-    </p>
+        <p>
+            In addition to learning about operating systems, we also implement a small operating system in C. After we were given starter code, we implemented a frame manager, page tables, vitual memory management and memory allocation, kernel-level thread scheduling, a primitive disk driver, and a vanilla file system. For the most part each assignment built upon the work of the last (e.g. virtual memory needs page tables to be setup).
+        </p>
 
-    <p>
-        In addition to learning about operating systems, we also implement a small operating system in C. After we were given starter code, we implemented a frame manager, page tables, vitual memory management and memory allocation, kernel-level thread scheduling, a primitive disk driver, and a vanilla file system. For the most part each assignment built upon the work of the last (e.g. virtual memory needs page tables to be setup).
-    </p>
+        <p>
+            Since this was also a class project, I cannot share the operating system I wrote or my reports publicly. Unfortunately, there is not a publicly-accessibly course website like there is for CMU's 15-611, so the best link I can give is to A&M's undergraduate computer science <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/">course catalog</a>.
+        </p>
 
-    <p>
-        Since this was also a class project, I cannot share the operating system I wrote or my reports publicly. Unfortunately, there is not a publicly-accessibly course website like there is for CMU's 15-611, so the best link I can give is to A&M's undergraduate computer science <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/">course catalog</a>.
-    </p>
+        <h2>Vulkan Raytracer</h2>
 
-    <h2>Vulkan Raytracer</h2>
+        <p>
+            During the summer of 2024 I learned how to use the Vulkan graphics API, and created a simple raytracer with it in C++ as a personal project. The goal of this project was to render portals on curved surfaces in realtime to see how they look. The project never got that far simply due to lack of time, but I was able to raytrace a simple scene in realtime that included several types of primitives with optional modifiers and used multi-sample antialiasing to create a clean looking image.
+        </p>
 
-    <p>
-        During the summer of 2024 I learned how to use the Vulkan graphics API, and created a simple raytracer with it in C++ as a personal project. The goal of this project was to render portals on curved surfaces in realtime to see how they look. The project never got that far simply due to lack of time, but I was able to raytrace a simple scene in realtime that included several types of primitives with optional modifiers and used multi-sample antialiasing to create a clean looking image.
-    </p>
+        <p>
+            Here is <a href="https://github.com/PeterSchlenker/VulkanPortalRaytracer">my GitHub repository</a>. I used Visual Studio, the Vulkan SDK, and GLFW to build and run the project on Windows.
+        </p>
 
-    <p>
-        Here is <a href="https://github.com/PeterSchlenker/VulkanPortalRaytracer">my GitHub repository</a>. I used Visual Studio, the Vulkan SDK, and GLFW to build and run the project on Windows.
-    </p>
-
-
-    <h1>Research</h1>
-
-    <p>
-        While I was an undergraduate at Texas A&M, I worked in the <a href="https://pvfa.tamu.edu/institutes/">Soft Interaction Lab</a> with Dr. Jinsil Hwaryoung Seo as a Unity VR (virtual reality) developer. The two most notable projects I worked on were my engineering honors undergraduate thesis, and a VR application to help doctors diagnose sepsis.
-    </p>
-
-    <h2>Undergraduate Thesis: Using AI to Recreate Virtual Environments from Photos to Help Older Adults Remember Their Past</h2>
-
-    <p>
-        The goal of this project was to help older adults remember their past with VR. Specfically, we took old photos they gave to us and used AI to generate 3D scenes and 360° images for them to view in a VR headset. I was the developer for this project, and the sole author for my thesis. If you'd like to read more, I've linked my thesis below.
-    </p>
-
-    <p>
-        P. Schlenker, “Using AI to Recreate Virtual Environments from Photos to Help Older Adults Remember Their Past." The OAKTrust Digital Repository at Texas A&M, 2025. <a href="https://hdl.handle.net/1969.1/1591264">https://hdl.handle.net/1969.1/1591264</a>
-    </p>
-
-    <h2>Sepsis VR</h2>
-
-    <p>
-        The goal of this project was to help doctors practice diagnosing sepsis. We worked with a team of doctors to come up with a script and list of symptoms the patient would show.
-    </p>
-    
-    <p>
-        In the simulaiton, the doctor is treating a patient in his hospital room. Participants need to first inspect his vital sign monitor and listen to his heart and his breathing, as well as observe the sploting on his skin. Then participants are required to call his healthcare provider on the phone, and then a prerecorded line will tell them what to do next. They then apply a nasal cannula, give him an IV, and collect a blood and urine sample.
-    </p>
+        <div class="centered">
+            <img src="images/vulkan-raytracer-screenshot.jpg" alt="Crochet turtles in nature" style="width: 90%" />
+        </div>
+    </div>
 
 
-    <h1>Crochet</h1>
+    <div class="section">
+        <h1>Research</h1>
 
-    <p>In addition to computer science, I enjoy crocheting! Here is a turtle pattern I created:</p>
+        <p>
+            While I was an undergraduate at Texas A&M, I worked in the <a href="https://pvfa.tamu.edu/institutes/">Soft Interaction Lab</a> with Dr. Jinsil Hwaryoung Seo as a Unity VR (virtual reality) developer. The two most notable projects I worked on were my engineering honors undergraduate thesis, and a VR application to help doctors diagnose sepsis.
+        </p>
 
-    <div>
-        <h2>Tiny Turtle</h2>
+        <h2>Undergraduate Thesis: Using AI to Recreate Virtual Environments from Photos to Help Older Adults Remember Their Past</h2>
 
-        <h3>Materials needed</h3>
+        <p>
+            The goal of this project was to help older adults remember their past with VR. Specfically, we took old photos they gave to us and used AI to generate 3D scenes and 360° images for them to view in a VR headset. I was the developer for this project, and the sole author for my thesis. If you'd like to read more, I've linked my thesis below.
+        </p>
 
-        <ul>
-            <li>Yarn (worsted weight 4)</li>
+        <p>
+            P. Schlenker, “Using AI to Recreate Virtual Environments from Photos to Help Older Adults Remember Their Past." The OAKTrust Digital Repository at Texas A&M, 2025. <a href="https://hdl.handle.net/1969.1/1591264">https://hdl.handle.net/1969.1/1591264</a>
+        </p>
+
+        <h2>Sepsis VR</h2>
+
+        <p>
+            The goal of this project was to help doctors practice diagnosing sepsis. We worked with a team of doctors to come up with a script and list of symptoms the patient would show.
+        </p>
+        
+        <p>
+            In the simulaiton, the doctor is treating a patient in his hospital room. Participants need to first inspect his vital sign monitor and listen to his heart and his breathing, as well as observe the sploting on his skin. Then participants are required to call his healthcare provider on the phone, and then a prerecorded line will tell them what to do next. They then apply a nasal cannula, give him an IV, and collect a blood and urine sample.
+        </p>
+    </div>
+
+
+    <div class="section">
+        <h1>Crochet</h1>
+
+        <p>In addition to computer science, I enjoy crocheting! Here is a turtle pattern I created:</p>
+
+        <div>
+            <h2>Tiny Turtle</h2>
+
+            <h3>Materials needed</h3>
+
             <ul>
-                <li>Brown (color A)</li>
-                <li>Green (color B)</li>
+                <li>Yarn (worsted weight 4)</li>
+                <ul>
+                    <li>Brown (color A)</li>
+                    <li>Green (color B)</li>
+                </ul>
+                <li>Hook</li>
+                <li>Stuffing</li>
+                <li>Scissors</li>
             </ul>
-            <li>Hook</li>
-            <li>Stuffing</li>
-            <li>Scissors</li>
-        </ul>
 
-        <h3>Abbreviations</h3>
+            <h3>Abbreviations</h3>
 
-        <ul>
-            <li>mc = magic circle</li>
-            <li>sc = single crochet</li>
-            <li>inc = increase stitch</li>
-            <li>dec = invisible decrease stitch</li>
-            <li>dc = double crochet</li>
-            <li>tr = treble crochet</li>
-            <li>ch = chain</li>
-            <li>BLO = back loop only</li>
-            <li>F/O = fasten off</li>
-            <li>Rnd = round</li>
-            <li>Rnd 2: 6 inc (12) = the parentheses mean that there should be 12 stitches when you finish this round</li>
-            <li>[3 sc, inc] x 4 = do the thing in the brackets 4 times</li>
-        </ul>
+            <ul>
+                <li>mc = magic circle</li>
+                <li>sc = single crochet</li>
+                <li>inc = increase stitch</li>
+                <li>dec = invisible decrease stitch</li>
+                <li>dc = double crochet</li>
+                <li>tr = treble crochet</li>
+                <li>ch = chain</li>
+                <li>BLO = back loop only</li>
+                <li>F/O = fasten off</li>
+                <li>Rnd = round</li>
+                <li>Rnd 2: 6 inc (12) = the parentheses mean that there should be 12 stitches when you finish this round</li>
+                <li>[3 sc, inc] x 4 = do the thing in the brackets 4 times</li>
+            </ul>
 
-        <h3>Body</h3>
+            <h3>Body</h3>
 
-        <p>Color A (brown)</p>
+            <p>Color A (brown)</p>
 
-        <ul>
-            <li>Rnd 1: 6 sc in mc, sl st to join (6)</li>
-            <li>Rnd 2: ch, sc in same st, 5 inc, sl st to join (12)</li>
-            <li>Rnd 3: ch, inc, [sc, inc] x 5, sl st to join (18)</li>
-        </ul>
+            <ul>
+                <li>Rnd 1: 6 sc in mc, sl st to join (6)</li>
+                <li>Rnd 2: ch, sc in same st, 5 inc, sl st to join (12)</li>
+                <li>Rnd 3: ch, inc, [sc, inc] x 5, sl st to join (18)</li>
+            </ul>
 
-        <p>Color B (green)</p>
+            <p>Color B (green)</p>
 
-        <p>This next round is complicated so it is split up</p>
+            <p>This next round is complicated so it is split up</p>
 
-        <ul>
-            <li>Rnd 4a: ch, BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
-            <li>Rnd 4b: 3 BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
-        </ul>
+            <ul>
+                <li>Rnd 4a: ch, BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
+                <li>Rnd 4b: 3 BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
+            </ul>
 
-        <p>Notice that the next section is different</p>
+            <p>Notice that the next section is different</p>
 
-        <ul>
-            <li>Rnd 4c: 1 BLO sc, ch, 1 BLO dhc in same st, sl st in most recent ch</li>
-            <li>Rnd 4d: 1 BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
-            <li>Rnd 4e: 3 BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
-        </ul>
+            <ul>
+                <li>Rnd 4c: 1 BLO sc, ch, 1 BLO dhc in same st, sl st in most recent ch</li>
+                <li>Rnd 4d: 1 BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
+                <li>Rnd 4e: 3 BLO sc, ch, 2 BLO dc in same st, sl st in most recent ch</li>
+            </ul>
 
-        <p>Halfway through doing the second treble crochet stitch, insert a slip stitch into the first treble crochet stitch (forming an "H" shape instead of a "| |" shape) so that the head won't be able to be split in half</p>
+            <p>Halfway through doing the second treble crochet stitch, insert a slip stitch into the first treble crochet stitch (forming an "H" shape instead of a "| |" shape) so that the head won't be able to be split in half</p>
 
-        <ul>
-            <li>Rnd 4f: 2 BLO sc, ch, 2 BLO tr in same st, sl st in most recent ch, sl st to join (12)</li>
-        </ul>
+            <ul>
+                <li>Rnd 4f: 2 BLO sc, ch, 2 BLO tr in same st, sl st in most recent ch, sl st to join (12)</li>
+            </ul>
 
-        <p>Put a decrease stich across each limb. This means that the decrease stitches for the back legs and tails will share back loops, so that there can be a decrease stitch over the tail.</p>
+            <p>Put a decrease stich across each limb. This means that the decrease stitches for the back legs and tails will share back loops, so that there can be a decrease stitch over the tail.</p>
 
-        <p>Stuff the turtle before the last decrease stitch of the round</p>
+            <p>Stuff the turtle before the last decrease stitch of the round</p>
 
-        <ul>
-            <li>Rnd 5: dec, sc, 3 dec, sc, 2 dec (8)</li>
-            <li>Rnd 6: dec (7)</li>
-        </ul>
+            <ul>
+                <li>Rnd 5: dec, sc, 3 dec, sc, 2 dec (8)</li>
+                <li>Rnd 6: dec (7)</li>
+            </ul>
 
-        <p>F/O and sew the hole closed</p>
+            <p>F/O and sew the hole closed</p>
+        </div>
     </div>
 </body>
 
